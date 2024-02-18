@@ -9,6 +9,6 @@ import java.util.TimeZone;
 public class SpringTimezoneConfig {
     @PostConstruct
     public void timezoneConfig() {
-        TimeZone.setDefault(TimeZone.getTimeZone("America/Manaus"));
+        TimeZone.setDefault(TimeZone.getTimeZone("America/Cuiaba "));
     }
 }
